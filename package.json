@@ -1,11 +1,14 @@
 {
-  "name": "mywidget",
+  "name": "@shilwantkumar/mywidget",
   "version": "1.0.0",
   "engines": {
     "yarn": ">=1.7.0 <2",
     "node": ">=16"
   },
-  "repository": "https://github.com/shilwantkumar/mywidget.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shilwantkumar/mywidget.git"
+  },
   "bugs": {
     "url": "https://github.com/shilwantkumar/mywidget.git/issues"
   },
@@ -24,7 +27,9 @@
     "lerna": "2.4.0"
   },
   "workspaces": [
-    "mywidget", "browser-app", "electron-app"
+    "mywidget",
+    "browser-app",
+    "electron-app"
   ],
   "author": "Shilwant Kumar <shilwant.kumar@techconative.com> (https://github.com/shilwantkumar)"
 }
