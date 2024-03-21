@@ -1,7 +1,6 @@
 {
-  
   "name": "browser-app",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "dependencies": {
     "@theia/core": "latest",
     "@theia/editor": "latest",
@@ -14,7 +13,7 @@
     "@theia/process": "latest",
     "@theia/terminal": "latest",
     "@theia/workspace": "latest",
-    "mywidget": "0.0.0"
+    "mywidget": "^1.0.0"
   },
   "devDependencies": {
     "@theia/cli": "latest"

@@ -1,7 +1,6 @@
 {
-  
   "name": "electron-app",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "lib/backend/electron-main.js",
   "dependencies": {
     "@theia/core": "latest",
@@ -16,7 +15,7 @@
     "@theia/process": "latest",
     "@theia/terminal": "latest",
     "@theia/workspace": "latest",
-    "mywidget": "0.0.0"
+    "mywidget": "^1.0.0"
   },
   "devDependencies": {
     "@theia/cli": "latest",
